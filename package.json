@@ -1,0 +1,36 @@
+{
+  "name": "lipsum-cli",
+  "version": "1.0.0",
+  "description": "CLI for generating lorem ipsum",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttuyon/lipsum-cli.git"
+  },
+  "author": "ttuyon <ttuyon@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttuyon/lipsum-cli/issues"
+  },
+  "homepage": "https://github.com/ttuyon/lipsum-cli#readme",
+  "dependencies": {
+    "clipboardy": "^2.3.0",
+    "commander": "^5.1.0",
+    "enquirer": "^2.3.5",
+    "hipsum": "git+https://github.com/ttuyon/hipsum.git",
+    "lorem-ipsum": "^2.0.3"
+  },
+  "bin": {
+    "lipsum": "index.js"
+  },
+  "keywords": [
+    "lorem",
+    "ipsum",
+    "lipsum",
+    "placeholder",
+    "korean"
+  ]
+}
